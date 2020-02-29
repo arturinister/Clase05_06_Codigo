@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap');
+h1 {
+	color: darkorchid;
+	font-size: 6em;
+}
+
+
+p {
+	color: red;
+	font-family: arial;
+	font-size: 2em;
+	text-align: center;
+	line-height: 2;
+}
+
+p.alternativo {
+	color: blue;
+	font-family: 'Odibee Sans', serif;
+}
+
+a:link {
+	color: #00B88D;
+	text-decoration: none;
+}
+
+a:visited {
+	color: fuchsia;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.textoSombreado {
+	text-shadow: 3px 2px 2px red;
+}
+
+.sombreadoComplejo {
+	text-shadow: -1px -1px 1px #aaa,
+             0px 4px 1px rgba(0,0,0,0.5),
+             4px 4px 5px rgba(0,0,0,0.7),
+             0px 0px 7px rgba(0,0,0,0.4);
+}
+
+.espaciadoLetrasYPalabras {
+	letter-spacing: 2px;
+  	word-spacing: 4px;
+}
+
+.imagenCentrada {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 20%;
+}
+
+
+
